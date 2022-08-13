@@ -10,6 +10,9 @@ body{
     height: 100vh;
     align-items: center;
 }
+h3{
+    font-size: 1.5rem;
+}
 .container{
     display: flex;
     align-items: flex-start;
@@ -20,21 +23,41 @@ body{
     border-radius: 5%;
     background: rgb(1, 7, 59);
 }
-.container input{
-   align-self: center;
+.ip-container{
+    background: #353959;
     width: 95%;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.container input{
+    background-color: #353959;
     border: none;
-    height: 4.5%;
+    width: 90%;
     outline: none;
-    border-radius: 5px;
-    background-color: indigo;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
 }
 .footer{
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1.5fr;
 }
+.footer-items, .footer-items h3, .footer-items h2{ 
+    margin: 0 0.6em 0.2em 0; 
+    padding: 0;
+}
 .btns{
     margin: 0.1em;
     background: blue;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+.btns:hover{
+    color:black;
+    background-color: yellow;
 }

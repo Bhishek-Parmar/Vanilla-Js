@@ -10,9 +10,10 @@
 <body>
     <div class="container">
         <h3 style="margin-top: 30%;">Bill total</h3>
-        <input type="number"  onkeyup="calculateBill()" id="billTotalInput">
+        <div class="ip-container"> <span> ₹</span><input type="number"  onkeyup="calculateBill()" id="billTotalInput"></div>
+       
         <h3>Tip percent</h3>
-        <input type="number" id="tipInput"  onkeyup="calculateBill()" >
+        <div class="ip-container"><span>%</span><input type="number" id="tipInput"  onkeyup="calculateBill()" ></div>
         
         <div class="footer">
             <div class="footer-items" style="text-align:left;"><h3>People</h3></div>
